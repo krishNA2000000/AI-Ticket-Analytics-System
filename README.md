@@ -33,32 +33,46 @@ The system is built entirely in Python using a modular, three-layer data pipelin
 ---
 
 ###Quick Start Setup Instructions
-Follow these direct steps to launch the system locally. The evaluator can spin up this system at zero cost.
+Follow these direct steps to launch the system locally. You can spin up this system at zero cost.
 
-1. Clone & Navigate to the Project
-Bash
-cd Dot_mappers_assessment_work
+1. Clone & Navigate to the Project(on MAC/windows)
+Bash/DOS
+
+cd AI-Ticket-Analytics-System
+
 2. Initialize and Activate the Virtual Environment
-Bash
+
+Bash/DOS 
 python -m venv venv
-# On Windows (Command Prompt)
+
+# On Windows (Command Prompt) e.g C:\path\to your\AI-Ticket-Analytics-System>venv\Scripts\activate
 venv\Scripts\activate
+
+
 # On Mac/Linux
 source venv/bin/activate
+
 3. Install Pre-Compiled Dependencies
+
+
 Bash
 pip install --only-binary=:all: -r requirements.txt
+
+
 4. Configure Your Secure Environment Key
 Create a .env file in the root project directory and paste your free Groq API key:
 
 Plaintext
 GROQ_API_KEY=your_free_groq_api_key_here
+
+
 5. Launch the Complete Application
 Run the following single command to start the application server:
 
 Bash
 streamlit run app.py
-The interface will automatically load in your browser at http://localhost:8501.
+
+The interface will automatically load in your browser at http://localhost:8501. 
 
 📊 Sample Queries Handled Successfully
 The system safely handles evaluation inquiries, automatically translating text to pandas expressions before showing results:
