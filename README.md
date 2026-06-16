@@ -1,6 +1,6 @@
 # End-to-End AI Support Ticket System
 
-### Technical Work|AI Engineer| DOTMappers IT Pvt. Ltd.
+### Technical Project Work
 
 A production-grade, zero-cost AI-powered analytics assistant designed to ingest customer support ticket data, automatically detect operational anomalies, and handle natural language questions using an advanced Text-to-Pandas LLM translation architecture.
 
